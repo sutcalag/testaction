@@ -11,3 +11,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.MYTOKEN }}
           round: true
+          avatarSize: 20
