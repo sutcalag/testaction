@@ -7,15 +7,7 @@ jobs:
   add:
     runs-on: ubuntu-latest
     steps:
-      - name: Auto-add contributors
-        uses: BobAnkh/add-contributors@v0.0.8
+      - uses: bubkoo/contributors-list@v1
         with:
-          REPO_NAME: 'sutcalag/testaction'
-          CONTRIBUTOR: '### Contributors'
-          ACCESS_TOKEN: ${{secrets.MYTOKEN}}
-          FONT_SIZE: '0'
-          PATH: '/README.md'
-          COMMIT_MESSAGE: 'docs(README): update contributors'
-          AVATAR_SHAPE: 'round'
-          IMG_WIDTH: '20'
-          COLUMN_PER_ROW: '50'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          round: true
