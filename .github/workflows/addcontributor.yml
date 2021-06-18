@@ -12,10 +12,10 @@ jobs:
         with:
           REPO_NAME: 'sutcalag/testaction'
           CONTRIBUTOR: '### Contributors'
-          COLUMN_PER_ROW: '6'
           ACCESS_TOKEN: ${{secrets.MYTOKEN}}
-          IMG_WIDTH: '100'
-          FONT_SIZE: '14'
+          FONT_SIZE: '0'
           PATH: '/README.md'
           COMMIT_MESSAGE: 'docs(README): update contributors'
           AVATAR_SHAPE: 'round'
+          IMG_WIDTH: '20'
+          COLUMN_PER_ROW: '50'
