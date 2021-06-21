@@ -2,13 +2,22 @@
 name: add contributor
 
 on: push
-    
+
+
 jobs:
   add:
     runs-on: ubuntu-latest
+    if 1 == 2
     steps:
       - uses: bubkoo/contributors-list@v1
         with:
           GITHUB_TOKEN: ${{ secrets.MYTOKEN }}
           round: true
           avatarSize: 20
+          
+ contributor_list:
+    name: Contributor List
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: docker://cjdenio/contributor_list:latest
