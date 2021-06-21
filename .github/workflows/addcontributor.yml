@@ -14,8 +14,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MYTOKEN }}
           round: true
           avatarSize: 20
-          
- contributor_list:
+  contributor_list:
     name: Contributor List
     runs-on: ubuntu-latest
     steps:
