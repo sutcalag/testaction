@@ -31,7 +31,7 @@ jobs:
         with:
           token: ${{ secrets.MYTOKEN }}
           update-files: 'README.md'
-          update-places: '## Contributors List'
+          update-places: '## Contributors List/## LIC'
           style: 'simple'
           avatar-width: '20'
 
