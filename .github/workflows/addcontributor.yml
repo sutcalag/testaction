@@ -7,7 +7,7 @@ on: push
 jobs:
   add:
     runs-on: ubuntu-latest
-    if 1 == 2
+    if: 1 == 2
     steps:
       - uses: bubkoo/contributors-list@v1
         with:
