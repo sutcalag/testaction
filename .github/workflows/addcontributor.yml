@@ -23,7 +23,6 @@ jobs:
       - uses: docker://cjdenio/contributor_list:latest
 
   contributor:
-    if: 1 == 2
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -35,7 +34,7 @@ jobs:
           update-places: '## Contributors List/## LIC'
           style: 'simple'
           avatar-width: '40'
-          show-total: 'false'
+          show-total: 'true'
 
       - name: Commit and push if changed
         run: |-
