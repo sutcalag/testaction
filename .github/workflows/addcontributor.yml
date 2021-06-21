@@ -33,7 +33,8 @@ jobs:
           update-files: 'README.md'
           update-places: '## Contributors List/## LIC'
           style: 'simple'
-          avatar-width: '20'
+          avatar-width: '40'
+          show-total: 'false'
 
       - name: Commit and push if changed
         run: |-
