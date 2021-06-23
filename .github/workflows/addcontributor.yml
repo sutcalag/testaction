@@ -6,7 +6,6 @@ on: push
 
 jobs:
   contributor:
-    if: 1==2
     runs-on: ubuntu-latest
     steps:
       - uses: milvus-io/hero-bot@master
