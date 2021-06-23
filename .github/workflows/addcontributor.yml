@@ -9,23 +9,9 @@ jobs:
     if: 1==2
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-
-      - uses: actions-cool/contributor-helper@v1.2.0
+      - uses: milvus-io/hero-bot@master
         with:
           token: ${{ secrets.MYTOKEN }}
-          update-files: 'README.md'
-          update-places: '## Contributors List/## LIC'
-          style: 'simple'
-          avatar-width: '40'
-          show-total: 'true'
-
-      - name: Commit and push if changed
-        run: |-
-          git diff
-          git config --global user.email "actions@github.com"
-          git config --global user.name "github-actions"
-          git pull
-          git add -A
-          git commit -m "🤖 Auto update contributors" || exit 0
-          git push
+          repos: 'milvus-io/milvus,milvus-io/www.milvus.io'
+          targetRepo: 'sutcalag/testaction'
+          
