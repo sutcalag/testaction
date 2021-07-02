@@ -1,6 +1,9 @@
 # testaction
 <br><!-- Do not remove start of hero-bot --><br>
-<img src="https://img.shields.io/badge/all--contributors-4-orange"><br>
+<img src="https://img.shields.io/badge/all--contributors-7-orange"><br>
+<a href="https://avatars.githubusercontent.com/u/83750738?v=4"><img src="www.zillizaa2.com" width="40px" /></a>
+<a href="https://avatars.githubusercontent.com/u/83750738?v=4"><img src="www.zillizaa1.com" width="40px" /></a>
+<a href="https://avatars.githubusercontent.com/u/83750738?v=4"><img src="www.zilliz.com" width="40px" /></a>
 <a href="https://github.com/actions-user"><img src="https://avatars.githubusercontent.com/u/65916846?v=4" width="40px" /></a>
 <a href="https://github.com/czhen-zilliz"><img src="https://avatars.githubusercontent.com/u/83751452?v=4" width="40px" /></a>
 <a href="https://github.com/sutcalag"><img src="https://avatars.githubusercontent.com/u/83750738?v=4" width="40px" /></a>
