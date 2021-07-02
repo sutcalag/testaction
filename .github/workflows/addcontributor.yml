@@ -12,8 +12,8 @@ jobs:
         with:
           token: ${{ secrets.MYTOKEN }}
           repos: |
-           "milvus-io/milvus"
-           "facebook/react"
+           - 'milvus-io/milvus'
+           - 'facebook/react,ax'
           target: 'sutcalag/testaction/README.md'
           customUserConfig: 'sutcalag/testaction/aa.json'
         
