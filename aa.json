@@ -1,19 +1,18 @@
-{
-  userList: [
-    {
-      html_url: "https://avatars.githubusercontent.com/u/83750738?v=4",
-      avatar_url: "www.zillizaa2.com",
-      login: "aa"
-    },
-    {
-      html_url: "https://avatars.githubusercontent.com/u/83750738?v=4",
-      avatar_url: "www.zillizaa1.com",
-      login: "aa"
-    },
-    {
-      html_url: "https://avatars.githubusercontent.com/u/83750738?v=4",
-      avatar_url: "www.zilliz.com",
-      login: "ab"
-    }
-  ]
-}
+[
+  {
+    "html_url": "https://avatars.githubusercontent.com/u/83750738?v=4",
+    "avatar_url": "www.zillizaa2.com",
+    "login": "aa"
+  },
+  {
+    "html_url": "https://avatars.githubusercontent.com/u/83750738?v=4",
+    "avatar_url": "www.zillizaa1.com",
+    "login": "aa"
+  },
+  {
+    "html_url": "https://avatars.githubusercontent.com/u/83750738?v=4",
+    "avatar_url": "www.zilliz.com",
+    "login": "ab"
+  }
+]
+
