@@ -15,8 +15,7 @@ jobs:
           repos: 'milvus-io/milvus,milvus-io/www.milvus.io'
           targetRepo: 'sutcalag/testaction'
           
-          
-    steps:
+
       - uses: milvus-io/hero-bot@1.5
         with:
           token: ${{ secrets.MYTOKEN }}
