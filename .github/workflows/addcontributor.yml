@@ -13,7 +13,8 @@ jobs:
           token: ${{ secrets.MYTOKEN }}
           repos: 'milvus-io/milvus;facebook/react,ax'
           target: 'sutcalag/testaction/README.md'
-          showTotal: False
+          customUserConfig: 'sutcalag/testaction/aa.json'
           isAscend: False
+          width: '50px'
         
 
