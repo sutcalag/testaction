@@ -8,10 +8,7 @@ jobs:
   contributor:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - uses: milvus-io/hero-bot@1.5
+      - uses: milvus-io/hero-bot@1.6
         with:
           token: ${{ secrets.MYTOKEN }}
           repos: |
