@@ -11,7 +11,9 @@ jobs:
       - uses: milvus-io/hero-bot@1.10
         with:
           token: ${{ secrets.MYTOKEN }}
-          repos: 'milvus-io/milvus'
+          repos: |
+            'milvus-io/milvus'
+            'facebook/react'
           target: 'sutcalag/testaction/README.md'
           customUserConfig: 'sutcalag/testaction/aa.json'
         
