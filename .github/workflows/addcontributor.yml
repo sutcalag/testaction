@@ -6,12 +6,14 @@ on: push
 
 jobs:
   contributor:
-    - uses: milvus-io/hero-bot@1.5
-      with:
-        token: ${{ secrets.MYTOKEN }}
-        repos: 
-          - milvus-io/milvus
-          - facebook/react,ax
-        target: sutcalag/testaction/README.md
-        customUserConfig: sutcalag/testaction/aa.json
-          
+    runs-on: ubuntu-latest
+    steps:
+      - uses: milvus-io/hero-bot@1.5
+        with:
+          token: ${{ secrets.MYTOKEN }}
+          repos: 
+            - milvus-io/milvus
+            - facebook/react,ax
+          target: sutcalag/testaction/README.md
+          customUserConfig: sutcalag/testaction/aa.json
+        
