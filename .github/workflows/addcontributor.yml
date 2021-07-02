@@ -8,7 +8,7 @@ jobs:
   contributor:
     runs-on: ubuntu-latest
     steps:
-      - uses: milvus-io/hero-bot@1.10
+      - uses: milvus-io/hero-bot@1.11
         with:
           token: ${{ secrets.MYTOKEN }}
           repos: 'milvus-io/milvus;facebook/react,ax'
