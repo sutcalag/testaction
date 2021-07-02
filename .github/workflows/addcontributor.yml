@@ -14,10 +14,5 @@ jobs:
           repos: 'milvus-io/milvus'
           target: 'sutcalag/testaction/README.md'
           customUserConfig: 'sutcalag/testaction/aa.json'
-          orderKey: 'login'
-          isAscend: True
-          userTypeBlackList: ''
-          width: '50px'
-          showTotal: False
         
 
