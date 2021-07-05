@@ -108,7 +108,7 @@
 <a href="https://github.com/akihoni"><img src="https://avatars.githubusercontent.com/u/36330442?v=4" width="50px" /></a>
 <a href="https://www.zilliz.com"><img src="https://zilliz.com/images/logo.svg" width="50px" /></a>
 <a href="https://github.com/aaronjin2010"><img src="https://avatars.githubusercontent.com/u/48044391?v=4" width="50px" /></a>
-<a href="https://www.zillizaa2.com"><img src="https://zilliz.com/images/logo.svg" width="50px" /></a>
+<a href="https://www.zillizaa2.com"><img src="https://milvus.io/static/aiqiyi-568f8dee6e06b1f198a62187e2d7fce3.png" width="50px" /></a>
 <a href="https://www.zillizaa1.com"><img src="https://zilliz.com/images/logo.svg" width="50px" /></a>
 <a href="https://github.com/Yukikaze-CZR"><img src="https://avatars.githubusercontent.com/u/48198922?v=4" width="50px" /></a>
 <a href="https://github.com/YiyunNi"><img src="https://avatars.githubusercontent.com/u/74396087?v=4" width="50px" /></a>
