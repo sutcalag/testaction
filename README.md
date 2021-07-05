@@ -106,10 +106,10 @@
 <a href="https://github.com/ashyshyshyman"><img src="https://avatars.githubusercontent.com/u/50362613?v=4" width="50px" /></a>
 <a href="https://github.com/anchun"><img src="https://avatars.githubusercontent.com/u/2356895?v=4" width="50px" /></a>
 <a href="https://github.com/akihoni"><img src="https://avatars.githubusercontent.com/u/36330442?v=4" width="50px" /></a>
-<a href="https://www.zilliz.com"><img src="https://avatars.githubusercontent.com/u/83750738?v=4" width="50px" /></a>
+<a href="https://www.zilliz.com"><img src="https://zilliz.com/images/logo.svg" width="50px" /></a>
 <a href="https://github.com/aaronjin2010"><img src="https://avatars.githubusercontent.com/u/48044391?v=4" width="50px" /></a>
-<a href="https://www.zillizaa2.com"><img src="https://avatars.githubusercontent.com/u/83750738?v=4" width="50px" /></a>
-<a href="https://www.zillizaa1.com"><img src="https://avatars.githubusercontent.com/u/83750738?v=4" width="50px" /></a>
+<a href="https://www.zillizaa2.com"><img src="https://zilliz.com/images/logo.svg" width="50px" /></a>
+<a href="https://www.zillizaa1.com"><img src="https://zilliz.com/images/logo.svg" width="50px" /></a>
 <a href="https://github.com/Yukikaze-CZR"><img src="https://avatars.githubusercontent.com/u/48198922?v=4" width="50px" /></a>
 <a href="https://github.com/YiyunNi"><img src="https://avatars.githubusercontent.com/u/74396087?v=4" width="50px" /></a>
 <a href="https://github.com/XuanYang-cn"><img src="https://avatars.githubusercontent.com/u/51370125?v=4" width="50px" /></a>
