@@ -1,9 +1,6 @@
 # testaction
 <br><!-- Do not remove start of hero-bot --><br>
 <img src="https://img.shields.io/badge/all--contributors-161-orange"><br>
-<a href="https://github.com/zxf2017"><img src="https://avatars.githubusercontent.com/u/29620478?v=4" width="50px" /></a>
-<a href="https://github.com/zwd1208"><img src="https://avatars.githubusercontent.com/u/15153901?v=4" width="50px" /></a>
-<a href="https://github.com/zhuwenxing"><img src="https://avatars.githubusercontent.com/u/12268675?v=4" width="50px" /></a>
 <a href="https://github.com/zhoubo0317"><img src="https://avatars.githubusercontent.com/u/51948620?v=4" width="50px" /></a>
 <a href="https://github.com/zhang787jun"><img src="https://avatars.githubusercontent.com/u/51014996?v=4" width="50px" /></a>
 <a href="https://github.com/zerowe-seven"><img src="https://avatars.githubusercontent.com/u/57790060?v=4" width="50px" /></a>
