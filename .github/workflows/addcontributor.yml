@@ -14,7 +14,8 @@ jobs:
           sudo chmod -R 777 ${{ github.event.repository.name }}
           cd ${{ github.event.repository.name }}
         
-      - uses: milvus-io/hero-bot@dco-enabled
+      - name: get and updage contributors 
+        uses: milvus-io/hero-bot@dco-enabled
         with:
           token: ${{ secrets.FULL_ACCESS_TOKEN }}
           repos: 'sutcalag/testaction'
