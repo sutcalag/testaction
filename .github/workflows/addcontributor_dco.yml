@@ -10,7 +10,6 @@ jobs:
     steps:
       
       - name: get code
-        if: 1 == 2
         run: |
           sudo git clone https://.:${{ secrets.TOKEN2 }}@github.com/${{ github.repository }}.git
           git config --global user.email "zhuanghong.chen@zilliz.com"
@@ -22,7 +21,6 @@ jobs:
           echo ${{ github.workspace }}
         
       - name: get and updage contributors 
-        if: 1 == 2
         uses: milvus-io/hero-bot@dco-enabled
         with:
           token: ${{ secrets.TOKEN2 }}
@@ -33,7 +31,6 @@ jobs:
           width: '50px'
     
       - name: commit code
-        if: 1 == 2
         run: |
           cd ${{ github.event.repository.name }}
           pwd
