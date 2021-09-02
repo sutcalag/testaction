@@ -1,0 +1,17 @@
+name: add contributor
+
+on: push
+
+
+jobs:
+  contributor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: milvus-io/hero-bot@1.11
+        with:
+          token: ${{ secrets.MYTOKEN }}
+          repos: 'milvus-io/milvus,bootcamp,community,docs,milvus-helm,milvus-sdk-go,milvus-sdk-java,milvus-sdk-node,milvus.io,pymilvus,pymilvus-orm'
+          target: 'sutcalag/testaction/README.md'
+          customUserConfig: 'sutcalag/testaction/aa.json'
+          isAscend: False
+          width: '50px'
