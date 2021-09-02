@@ -8,15 +8,26 @@ jobs:
   contributor:
     runs-on: ubuntu-latest
     steps:
+      - name: get code
+        run: |
+          sudo git clone https://.:${{ secrets.MYTOKEN }}@github.com/${{ github.repository }}.git
+          sudo chmod -R 777 ${{ github.event.repository.name }}
+          cd ${{ github.event.repository.name }}
+        
       - uses: milvus-io/hero-bot@dco-enabled
         with:
           token: ${{ secrets.MYTOKEN }}
           repos: 'milvus-io/milvus,bootcamp,community,docs,milvus-helm,milvus-sdk-go,milvus-sdk-java,milvus-sdk-node,milvus.io,pymilvus,pymilvus-orm'
-          targetRepo: 'sutcalag/testaction'
-          targetReponame: 'testaction'
           targetFile: 'README.md'
           customUserConfig: 'sutcalag/testaction/aa.json'
           isAscend: False
           width: '50px'
-        
+      - name: commit code
+        run: |
+          if git diff --exit-code; then
+            git add -u
+            git commit -s -m 'update contributors'
+            git push
+          fi
+
 
