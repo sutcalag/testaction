@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.TOKEN2 }}
           repos: 'sutcalag/testaction'
-          targetFile: 'README.md'
+          targetFile: './README.md'
           customUserConfig: 'sutcalag/testaction/aa.json'
           isAscend: False
           width: '50px'
