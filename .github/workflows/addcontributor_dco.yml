@@ -24,7 +24,7 @@ jobs:
         uses: milvus-io/hero-bot@dco-enabled
         with:
           token: ${{ secrets.TOKEN2 }}
-          repos: 'milvus-io/milvus'
+          repos: 'milvus-io/milvus,bootcamp,community,docs,milvus-helm,milvus-sdk-go,milvus-sdk-java,milvus-sdk-node,milvus.io,pymilvus,pymilvus-orm'
           targetFile: './README.md'
           customUserConfig: 'sutcalag/testaction/aa.json'
           isAscend: False
