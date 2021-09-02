@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: milvus-io/hero-bot@dco-enabled
-        env:
+        with:
           token: ${{ secrets.MYTOKEN }}
           repos: 'milvus-io/milvus,bootcamp,community,docs,milvus-helm,milvus-sdk-go,milvus-sdk-java,milvus-sdk-node,milvus.io,pymilvus,pymilvus-orm'
           targetRepo: 'sutcalag/testaction'
