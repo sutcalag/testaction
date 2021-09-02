@@ -29,6 +29,7 @@ jobs:
     
       - name: commit code
         run: |
+          cd ${{ github.event.repository.name }}
           pwd
           git add -u
           git commit -s -m 'update contributors'
