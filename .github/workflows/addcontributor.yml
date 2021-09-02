@@ -14,18 +14,16 @@ jobs:
           sudo chmod -R 777 ${{ github.event.repository.name }}
           cd ${{ github.event.repository.name }}
         
-#       - name: get and updage contributors 
-#         uses: milvus-io/hero-bot@dco-enabled
-#         with:
-#           token: ${{ secrets.TOKEN2 }}
-#           repos: 'sutcalag/testaction'
-#           targetFile: 'README.md'
-#           customUserConfig: 'sutcalag/testaction/aa.json'
-#           isAscend: False
-#           width: '50px'
-      - name: update code
-        run: |
-          rm -rf test1
+      - name: get and updage contributors 
+        uses: milvus-io/hero-bot@dco-enabled
+        with:
+          token: ${{ secrets.TOKEN2 }}
+          repos: 'sutcalag/testaction'
+          targetFile: 'README.md'
+          customUserConfig: 'sutcalag/testaction/aa.json'
+          isAscend: False
+          width: '50px'
+    
       - name: commit code
         run: |
           if git diff --exit-code; then
