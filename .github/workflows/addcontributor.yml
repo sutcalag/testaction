@@ -15,6 +15,7 @@ jobs:
           cd ${{ github.event.repository.name }}
           pwd
           ls
+          ${{ github.workspace }}
         
       - name: get and updage contributors 
         uses: milvus-io/hero-bot@dco-enabled
