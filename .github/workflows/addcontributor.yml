@@ -17,7 +17,7 @@ jobs:
       - uses: milvus-io/hero-bot@dco-enabled
         with:
           token: ${{ secrets.FULL_ACCESS_TOKEN }}
-          repos: 'milvus-io/milvus'
+          repos: 'sutcalag/testaction'
           targetFile: 'README.md'
           customUserConfig: 'sutcalag/testaction/aa.json'
           isAscend: False
