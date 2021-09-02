@@ -10,14 +10,14 @@ jobs:
     steps:
       - name: get code
         run: |
-          sudo git clone https://.:${{ secrets.MYTOKEN }}@github.com/${{ github.repository }}.git
+          sudo git clone https://.:${{ secrets.FULL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
           sudo chmod -R 777 ${{ github.event.repository.name }}
           cd ${{ github.event.repository.name }}
         
       - uses: milvus-io/hero-bot@dco-enabled
         with:
           token: ${{ secrets.FULL_ACCESS_TOKEN }}
-          repos: 'milvus-io/milvus,bootcamp,community,docs,milvus-helm,milvus-sdk-go,milvus-sdk-java,milvus-sdk-node,milvus.io,pymilvus,pymilvus-orm'
+          repos: 'milvus-io/milvus'
           targetFile: 'README.md'
           customUserConfig: 'sutcalag/testaction/aa.json'
           isAscend: False
