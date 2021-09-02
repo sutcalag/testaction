@@ -13,6 +13,8 @@ jobs:
           sudo git clone https://.:${{ secrets.TOKEN2 }}@github.com/${{ github.repository }}.git
           sudo chmod -R 777 ${{ github.event.repository.name }}
           cd ${{ github.event.repository.name }}
+          pwd
+          ls
         
       - name: get and updage contributors 
         uses: milvus-io/hero-bot@dco-enabled
