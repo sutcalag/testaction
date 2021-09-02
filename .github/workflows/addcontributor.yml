@@ -29,9 +29,10 @@ jobs:
     
       - name: commit code
         run: |
-            git add -u
-            git commit -s -m 'update contributors'
-            git push
+          pwd
+          git add -u
+          git commit -s -m 'update contributors'
+          git push
        
 
 
