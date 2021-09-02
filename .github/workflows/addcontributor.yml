@@ -11,6 +11,8 @@ jobs:
       - name: get code
         run: |
           sudo git clone https://.:${{ secrets.TOKEN2 }}@github.com/${{ github.repository }}.git
+          git config --global user.email "zhuanghong.chen@zilliz.com"
+          git config --global user.name "zhuanghong.chen"
           sudo chmod -R 777 ${{ github.event.repository.name }}
           cd ${{ github.event.repository.name }}
           pwd
