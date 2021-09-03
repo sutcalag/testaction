@@ -14,8 +14,10 @@ jobs:
           sudo git clone https://.:${{ secrets.MYTOKEN }}@github.com/${{ github.repository }}.git
           git config --global user.email "zhuanghong.chen@zilliz.com"
           git config --global user.name "zhuanghong.chen"
-          sudo chmod -R 777 ${{ github.repository##*/ }}
-          cd ${{ github.repository##*/ }}
+          export reponame=${{ github.repository }}
+          echo $reponame
+          sudo chmod -R 777 ${reponame##*/}
+          cd ${reponame##*/}
           pwd
           ls
           echo ${{ github.workspace }}
