@@ -15,7 +15,6 @@ jobs:
           git config --global user.email "zhuanghong.chen@zilliz.com"
           git config --global user.name "zhuanghong.chen"
           export reponame=${{ github.repository }}
-          echo $reponame
           sudo chmod -R 777 ${reponame##*/}
           cd ${reponame##*/}
           pwd
@@ -26,9 +25,8 @@ jobs:
         uses: milvus-io/hero-bot@dco-enabled
         with:
           token: ${{ secrets.MYTOKEN }}
-          repos: 'milvus-io/milvus'
+          repos: 'milvus-io/milvus,bootcamp,community,docs,milvus-helm,milvus-sdk-go,milvus-sdk-java,milvus-sdk-node,milvus.io,pymilvus,pymilvus-orm'
           targetFile: 'README.md'
-          customUserConfig: 'sutcalag/testaction/aa.json'
           isAscend: False
           width: '50px'
     
