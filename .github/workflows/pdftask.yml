@@ -47,7 +47,15 @@ jobs:
       - uses: docker://pandoc/latex:2.9
         with:
           args: --toc --output=output/result.pdf ${{ steps.files_list.outputs.files }}
-      - uses: actions/upload-artifact@master
+#       - uses: actions/upload-artifact@master
+#         with:
+#           name: output
+#           path: output
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
         with:
-          name: output
-          path: output
+          author_name: Your Name
+          author_email: mail@example.com
+          message: 'add doc pdf'
+          add: output/result.pdf
+
