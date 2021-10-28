@@ -41,21 +41,25 @@ jobs:
         run: |
           echo "Lorem ipsum" > lorem_1.md  # create two example files
           echo "dolor sit amet" > lorem_2.md
+          echo "test333" > lorem_3.md
           mkdir output  # create output dir
           # this will also include README.md
           echo "::set-output name=files::$(printf '"%s" ' *.md)"
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --toc --output=output/result.pdf ${{ steps.files_list.outputs.files }}
+          args: --toc --output=output/result_toc.pdf ${{ steps.files_list.outputs.files }}
 #       - uses: actions/upload-artifact@master
 #         with:
 #           name: output
 #           path: output
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
           author_name: Your Name
           author_email: mail@example.com
           message: 'add doc pdf'
-          add: output/result.pdf
+          add: output
 
